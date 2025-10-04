@@ -1,4 +1,4 @@
-# Yeast Whole Genome Sequencing (WGS) Project
+# Yeast Whole Genome Sequencing (WGS) 
 
 Omics Sequencing of *Saccharomyces cerevisiae* Strain with Improved
 Capacity for Ethanol Production.
