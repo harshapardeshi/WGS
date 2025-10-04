@@ -68,9 +68,9 @@ cerevisiae.
 
 | Step | Tool | Description |
 |------|------|--------------|
-| QC | **fastp** | Quality control and read filtering |
+| QC | **fastp** | Quality control  |
 | Alignment | **BWA-MEM** | Read alignment to reference genome |
 | File Processing | **SAMtools** | BAM file sorting and indexing |
 | Variant Calling | **bcftools** | SNP and INDEL identification |
 | Variant Annotation | **Ensembl VEP** | Functional annotation of variants |
-| Visualization | **R / Python** | Plot generation and data visualization |
+| Visualization | **R  | Plot generation and data visualization |
