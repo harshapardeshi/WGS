@@ -73,3 +73,5 @@ cerevisiae.
 | Variant Calling | **bcftools** | SNP and INDEL identification |
 | Variant Annotation | **Ensembl VEP** | Functional annotation of variants |
 | Visualization | **R | Plot generation and data visualization |
+
+<pre> ``` 📦 WGS_project/ ├── 📁 data/ │ ├── 📁 raw_reads/ │ │ ├── SRR21747980_1.fastq.gz │ │ └── SRR21747980_2.fastq.gz │ ├── 📁 scripts/ │ ├── download_fastq.sh │ ├── variant_calling.sh │ └── vep_annotation.sh │ ├── 📁 variant/ │ ├── filtered_snps.vcf │ ├── filtered_indels.vcf │ └── annotated_variants.vcf │ ├── 📁 results/ │ ├── snp_consequences.pdf │ ├── snp_count_per_chromosome.pdf │ ├── top20_genes_by_snp_count.pdf │ └── kegg_pathway.pdf │ ├── README.md └── environment.yml ``` </pre>
