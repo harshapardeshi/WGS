@@ -63,3 +63,14 @@ consequences, SNP distribution per chromosome, top 20 genes by SNP
 count, and KEGG pathway enrichment. These visualizations highlight the
 genomic variation and functional impact of variants in Saccharomyces
 cerevisiae.
+
+## 🧭 Summary of Tools Used
+
+| Step | Tool | Description |
+|------|------|--------------|
+| QC | **fastp** | Quality control and read filtering |
+| Alignment | **BWA-MEM** | Read alignment to reference genome |
+| File Processing | **SAMtools** | BAM file sorting and indexing |
+| Variant Calling | **bcftools** | SNP and INDEL identification |
+| Variant Annotation | **Ensembl VEP** | Functional annotation of variants |
+| Visualization | **R / Python** | Plot generation and data visualization |
