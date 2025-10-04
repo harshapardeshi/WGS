@@ -1,4 +1,4 @@
-# Yeast Whole Genome Sequencing (WGS) 
+# Yeast Whole Genome Sequencing (WGS) Project
 
 Omics Sequencing of *Saccharomyces cerevisiae* Strain with Improved
 Capacity for Ethanol Production.
@@ -27,7 +27,9 @@ analysis. The key findings include:
 Data acquisition:-
 [PRJNA885247](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA885247)
 
-Workflow Data acquition The raw sequencing reads (paired-end) were
+# Workflow
+
+Data acquition The raw sequencing reads (paired-end) were
 downloaded from the European Nucleotide Archive (ENA) using BioProject
 ID PRJNA885247. The reference genome and annotation files for
 Saccharomyces cerevisiae were obtained from Ensembl Fungi.
@@ -67,10 +69,9 @@ cerevisiae.
 
 | Step | Tool | Description |
 |------|------|--------------|
-| QC | **fastp** | Quality control  |
+| QC | **fastp** | Quality control and read filtering |
 | Alignment | **BWA-MEM** | Read alignment to reference genome |
 | File Processing | **SAMtools** | BAM file sorting and indexing |
 | Variant Calling | **bcftools** | SNP and INDEL identification |
 | Variant Annotation | **Ensembl VEP** | Functional annotation of variants |
-| Visualization | **R | Plot generation and data visualization |
-
+| Visualization | **R / Python** | Plot generation and data visualization |
